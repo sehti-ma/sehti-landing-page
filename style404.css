@@ -1,0 +1,57 @@
+a:link, a:visited {
+	background-color: #006333;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	background-color: #45a049;
+}
+
+.nf {
+	text-align: center;
+	font-size: 76px;
+	font-family: helvetica,sans-serif;
+	color: white;
+}
+
+
+.retour {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 15px;
+	font-family: helvetica,sans-serif;
+}
+
+.txt {
+	text-align: center;
+	font-family: helvetica,sans-serif;
+	font-weight: bold;
+}
+
+body	{
+	background-image: url("Background404.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #99BED8;
+}
+
+#logo {
+	display: block;
+	margin-left: 0px;
+	margin-right: auto;
+	max-width:25%;
+    height:auto;
+}
+
+.footer {
+	text-align: center;
+	font-family: helvetica,sans-serif;
+	font-style: italic;
+	color: white;
+}
