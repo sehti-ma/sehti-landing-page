@@ -251,7 +251,7 @@ body.page-business  .lbusiness:hover {
 #h1darija,
 #h1french,
 #h1ardarija {
-  font-family: var(--font-display);
+  font-family: var(--font-display), sans-serif;
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   font-weight: 700;
   color: var(--clr-primary);
