@@ -1,87 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <title>sehti.ma - Business inquiries</title>
-        <link rel="stylesheet" href="style.css" />
-		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://sehti.ma/apple-touch-icon-57x57.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://sehti.ma/apple-touch-icon-114x114.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://sehti.ma/apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://sehti.ma/apple-touch-icon-144x144.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://sehti.ma/apple-touch-icon-60x60.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://sehti.ma/apple-touch-icon-120x120.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://sehti.ma/apple-touch-icon-76x76.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://sehti.ma/apple-touch-icon-152x152.png" />
-		<link rel="icon" type="image/png" href="https://sehti.ma/favicon-196x196.png" sizes="196x196" />
-		<link rel="icon" type="image/png" href="https://sehti.ma/favicon-96x96.png" sizes="96x96" />
-		<link rel="icon" type="image/png" href="https://sehti.ma/favicon-32x32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="https://sehti.ma/favicon-16x16.png" sizes="16x16" />
-		<link rel="icon" type="image/png" href="https://sehti.ma/favicon-128.png" sizes="128x128" />
-		<meta name="application-name" content="sehti.ma"/>
-		<meta name="msapplication-TileColor" content="#FFFFFF" />
-		<meta name="msapplication-TileImage" content="https://sehti.ma/mstile-144x144.png" />
-		<meta name="msapplication-square70x70logo" content="https://sehti.mam/stile-70x70.png" />
-		<meta name="msapplication-square150x150logo" content="https://sehti.ma/mstile-150x150.png" />
-		<meta name="msapplication-wide310x150logo" content="https://sehti.ma/mstile-310x150.png" />
-		<meta name="msapplication-square310x310logo" content="https://sehti.ma/mstile-310x310.png" />
-		<meta name="description" content="Business inquiries, demande d'informations commerciales et de partenariats.">
-    </head>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>sehti.ma - Business inquiries</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57"   href="https://sehti.ma/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://sehti.ma/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72"   href="https://sehti.ma/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://sehti.ma/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60"   href="https://sehti.ma/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://sehti.ma/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76"   href="https://sehti.ma/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://sehti.ma/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="https://sehti.ma/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="https://sehti.ma/favicon-96x96.png"   sizes="96x96" />
+	<link rel="icon" type="image/png" href="https://sehti.ma/favicon-32x32.png"   sizes="32x32" />
+	<link rel="icon" type="image/png" href="https://sehti.ma/favicon-16x16.png"   sizes="16x16" />
+	<link rel="icon" type="image/png" href="https://sehti.ma/favicon-128.png"     sizes="128x128" />
+	<meta name="application-name"                 content="sehti.ma" />
+	<meta name="msapplication-TileColor"          content="#1b4332" />
+	<meta name="msapplication-TileImage"          content="https://sehti.ma/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo"    content="https://sehti.ma/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo"  content="https://sehti.ma/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo"    content="https://sehti.ma/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo"  content="https://sehti.ma/mstile-310x310.png" />
+	<meta name="description" content="Business inquiries, demande d'informations commerciales et de partenariats." />
+</head>
+<body class="page-business">
 
-    <body>
-			<!-- debut des scripts -->
-			<button onclick="topFunction()" id="myBtn" title="Go to top">Rje3 lfouq/Haut de page/Up</button>
-			<script>
-			// When the user scrolls down 20px from the top of the document, show the button
-			window.onscroll = function() {scrollFunction()};
+<button onclick="topFunction()" id="myBtn" title="Go to top">Rje3 lfouq/Haut de page/Up</button>
+<script>
+	window.onscroll = function () { scrollFunction(); };
+	function scrollFunction() {
+		document.getElementById('myBtn').style.display =
+				(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) ? 'flex' : 'none';
+	}
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>
 
-			function scrollFunction() {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			document.getElementById("myBtn").style.display = "block";
-		} else {
-			document.getElementById("myBtn").style.display = "none";
-  }
-}
+<main class="page-wrapper">
 
-			// When the user clicks on the button, scroll to the top of the document
-			function topFunction() {
-				document.body.scrollTop = 0;
-				document.documentElement.scrollTop = 0;
-}
-			</script>
-			<!-- fin des scripts -->
-			
-    		
-				<a href="https://sehti.ma"><img id="logo" src="logo.png" alt="Logo" title="Logo" /></a>
+	<a href="https://sehti.ma">
+		<img id="logo" src="logo.png" alt="Logo sehti.ma" title="Logo" />
+	</a>
 
-			<div class="langues">
-			<h1>
-				<span title="Darija"><a lang="ary" href="darija.html" class="ldarija">Darija - دارجة</a></span>
-				<span title="Français"><a lang="fr" href="francais.html" class="lfrench">Français</a></span>
-				<span title="English"><a lang="en" href="english.html" class="lenglish">English</a></span>
-				<span title="business"><a lang="fr" href="business.html" class="lbusiness">Business</a></span>
-			</h1>
-			</div>
-			
-			
-			<h1 id="h1french">Bienvenue sur sehti.ma</h1>
-			<div class="business">
-				<p>Vous êtes un laboratoire, un médecin, une clinique, une association, une entreprise,</p>
-                <p>un établissement d'enseignement ou un établissement médical et vous désirez expliquer à votre clientèle</p>
-				<p>ou à vos employés des concepts scientifiques ou médicaux d'une manière simple et intuitive?</p>
-				<p>Utilisez le formulaire accessible depuis le lien de contact en bas de la page,</p>
-				<p>et nous répondrons dans les plus brefs délais avec des idées adaptées à vos besoins.</p>
-				<p><a href="contact.html">Contactez-nous ici!</a></p>
-			</div>
+	<nav class="langues" aria-label="Choisir la langue">
+		<h1>
+			<span title="Darija"><a lang="ary" href="darija.html"   class="ldarija">Darija - دارجة</a></span>
+			<span title="Français"><a lang="fr" href="francais.html" class="lfrench">Français</a></span>
+			<span title="English"><a lang="en" href="english.html"  class="lenglish">English</a></span>
+			<span title="business"><a lang="fr" href="business.html" class="lbusiness">Business</a></span>
+		</h1>
+	</nav>
 
+	<h1 id="h1french">Bienvenue sur sehti.ma</h1>
 
-			<div class="liens-bas-de-page">
-				<a href="https://www.youtube.com/channel/UCPBgtLmavNR98bfp4CxtCIw?sub_confirmation=1"><img id="yt" src="youtube.png" alt="Youtube" title="Youtube" /></a> |
-				<a href="https://www.instagram.com/sehti.ma/"><img id="ig" src="instagram.png" alt="Instagram" title="Instagram" /></a> |
-				<a href="https://www.facebook.com/sehti.ma"><img id="fb" src="facebook.png" alt="Facebook" title="Facebook" /></a>
-				<br/><br/>
-				<a href="#">L'équipe</a> | 
-				<a href="#">Contact</a> |  
-				Background by Freepik | No Cookies collected
-			</div>
-    </body>
+	<div class="business">
+		<p>Vous êtes un laboratoire, un médecin, une clinique, une association, une entreprise,</p>
+		<p>un établissement d'enseignement ou un établissement médical et vous désirez expliquer à votre clientèle</p>
+		<p>ou à vos employés des concepts scientifiques ou médicaux d'une manière simple et intuitive?</p>
+		<p>Utilisez le formulaire accessible depuis le lien de contact en bas de la page,</p>
+		<p>et nous répondrons dans les plus brefs délais avec des idées adaptées à vos besoins.</p>
+		<p><a href="#">Contactez-nous ici! (temporairement injoignables)</a></p>
+	</div>
+
+	<footer class="liens-bas-de-page">
+		<div class="social-row">
+			<a href="https://www.youtube.com/channel/UCPBgtLmavNR98bfp4CxtCIw?sub_confirmation=1" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><img id="yt" src="youtube.png" alt="Youtube" title="Youtube" /></a>
+			<a href="https://www.instagram.com/sehti.ma/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><img id="ig" src="instagram.png" alt="Instagram" title="Instagram" /></a>
+			<a href="https://www.facebook.com/sehti.ma" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><img id="fb" src="facebook.png" alt="Facebook" title="Facebook" /></a>
+		</div>
+		<div class="footer-meta">
+			<a href="#">L'équipe</a>
+			<span class="sep">·</span>
+			<a href="#">Contact</a>
+			<span class="sep">·</span>
+			<span></span>
+			<span class="sep">·</span>
+			<span>No Cookies collected</span>
+		</div>
+	</footer>
+
+</main>
+
+</body>
 </html>
